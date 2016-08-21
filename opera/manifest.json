@@ -2,7 +2,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "default_locale": "pl",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "icons": {
     "128": "img/logo_128.png",
@@ -10,7 +10,7 @@
   },
   "permissions": ["tabs"],
   "content_scripts": [{
-    "matches": ["http://www.wykop.pl/*"],
+    "matches": ["http://www.wykop.pl/tag/*"],
     "js": ["vendor/jquery-3.1.0.min.js", "main.js"]
     }
   ]
