@@ -14,6 +14,10 @@ Not sure, other versions were made later.
 
 https://addons.mozilla.org/en-US/firefox/addon/mirkoczat-wykop/
 
+Click "Manage" > "Upload New Version"
+
+Compress all files into .zip file.
+
 Do not add invalid keys for applications.gecko. Otherwise plugin will go "corrupt".
 
 ie. "INVALID-update_url": "https://mirkoczat.pl/manifests/firefox.json"
